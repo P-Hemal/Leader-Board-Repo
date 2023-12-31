@@ -29,6 +29,7 @@ main {
     padding: 30px;
     margin-top: 21px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 /* Players Style */
@@ -113,13 +114,16 @@ hr {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
-    margin: 10px;
+    
 
 }
 
 .course {
-    width: 252.423px;
-    height: 269.786px;
+    /* width: 252.423px; */
+    /* height: 269.786px; */
+    background-color:aliceblue;
+    border-radius: 10px;
+    padding: 5px;
     
 }
 
@@ -131,7 +135,7 @@ hr {
 .course-info {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .fa-star {
@@ -162,12 +166,10 @@ hr {
 
     }
 
-    .player,
-    .blog {
+    .player
+     {
         flex-direction: column;
     }
-    img{
-        width: 100%;
-    }
+    
 
 }
